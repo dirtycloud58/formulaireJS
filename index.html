@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Les formulaires HTML et JavaScript</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form>
+      <div class="field">
+        <label for="identifiant">Identifiant</label>
+        <input type="text" id="identifiant" name="identifiant">
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+      </div>
+      <div class="field">
+        <label for="annee">Année de naissance</label>
+        <input type="date" id="annee">
+        <div id="age"></div>
+      </div>
+      <div class="field">
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="field">
+        <label for="passwordConfirm">confirmation mot de passe</label>
+        <input type="password" id="passwordConfirm" name="passwordConfirm" required>
+      </div>          
+      <div class="field button"> 
+      <input type="submit" id="btn-submit" name="btn-submit"></div>
+    </form>
+    <div id="error"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
