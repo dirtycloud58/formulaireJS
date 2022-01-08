@@ -16,3 +16,6 @@ form{
     width: 50%;
     margin: 0 auto;
   }
+  .error input{
+    border: 1px solid red;
+  }

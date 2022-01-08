@@ -8,29 +8,29 @@
   </head>
   <body>
     <form>
-      <div class="field">
+      <div class="field identifiant-container">
         <label for="identifiant">Identifiant</label>
         <input type="text" id="identifiant" name="identifiant">
+        <span></span>
       </div>
-      <div class="field">
+      <div class="field email-container">
         <label for="email">Email</label>
         <input type="text" id="email" name="email">
+        <span></span>
       </div>
-      <div class="field">
-        <label for="annee">Année de naissance</label>
-        <input type="date" id="annee">
-        <div id="age"></div>
-      </div>
-      <div class="field">
+      <div class="field password-container">
         <label for="password">Mot de passe</label>
         <input type="password" id="password" name="password" required>
+        <span></span>
       </div>
-      <div class="field">
+      <div class="field passwordConfirm-container">
         <label for="passwordConfirm">confirmation mot de passe</label>
         <input type="password" id="passwordConfirm" name="passwordConfirm" required>
+        <span></span>
       </div>          
-      <div class="field button"> 
+      <div class="field button submit-container"> 
       <input type="submit" id="btn-submit" name="btn-submit"></div>
+      <span></span>
     </form>
     <div id="error"></div>
     <script src="script.js"></script>
