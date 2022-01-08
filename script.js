@@ -50,8 +50,7 @@ const identifiantChecker = (value) => {
     }else if(!value.match(/^[a-zA-Z0-9_.-]*$/)){
         errorDisplay("identifiant", "votre identifiant ne doit pas contenir de caractere speciaux");
         identifiant = null;
-    }
-    else {
+    }else {
         errorDisplay("identifiant", "", true);
         identifiant = value;     
     }
